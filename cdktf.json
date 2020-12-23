@@ -1,0 +1,11 @@
+{
+  "language": "java",
+  "app": "./gradlew run",
+  "terraformProviders": [
+    "aws@~> 3.0"
+  ],
+  "terraformModules": [
+    "terraform-aws-modules/vpc/aws",
+    "terraform-aws-modules/eks/aws"
+  ]
+}
